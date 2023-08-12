@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,700;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;1,100;1,200;1,300&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,300;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Poppins:wght@500;600;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+
+
+@import 'default';
+@import 'animation.scss';
+@import 'header';
+@import 'home.scss';
+@import 'skill.scss';
+@import 'about.scss';
+@import 'contact.scss';
+@import 'media.scss';
+@import 'footer.scss';
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $text2;
+    scroll-behavior: smooth;
+
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: $color1;
+    overflow-x: hidden;
+
+}
+.disableBtn{
+    background-color: rgb(237,237,237);
+    cursor: not-allowed;
+}

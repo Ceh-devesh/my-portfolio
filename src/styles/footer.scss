@@ -1,0 +1,27 @@
+
+footer{
+    >a{
+        text-decoration: none;
+        color: white;
+    }
+    display:flex;
+    justify-content: space-around;
+    
+    background-color: #2d2e32 ;
+    padding: 4rem 0;
+    width: 100%;
+    font-family: Poppins;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    flex-grow: 2;
+    position: relative;
+    .github{
+        height: 5vh;
+        font-size: 30px;
+        top: 38%;
+        position: absolute;        
+        right: 10%;
+    }
+    
+    }

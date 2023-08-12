@@ -1,0 +1,73 @@
+nav{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: $color1;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 10px -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 $p;
+    position: sticky;
+    top: 0%;
+    z-index: 60;
+    >img{
+        height: 24vh;
+        transform: skew(150deg);
+        transform: translate(-50%);
+        position: absolute;
+        top: -6px;
+        left: 350px;
+        
+        animation: logo 0.9s infinite linear alternate;
+    }
+    
+
+    >a{
+        font-size: 1.9rem;
+        // font-weight: 200;
+        cursor: pointer;
+        // text-transform: uppercase;
+        color: #2d2e32;
+        font-family: bangers;
+        letter-spacing: 2px;
+        position: absolute;
+        left: 8rem;
+    }
+    >div{
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        a{  font-size: 1.2rem;
+            color: $color6;
+            font-weight: 500;
+            transition: all 0.3s;
+            letter-spacing: 2px;
+            &:hover{
+                color:#7885F1;
+            }
+
+           
+        }
+    }
+   >a{
+    >button{
+        position: absolute;
+        right: -90rem;
+        top: -20px;
+        background-color: #7885F1;
+        border: 1px solid $color1;
+        border-radius: 20px;
+        padding: 0.5rem 2rem;
+        cursor: pointer;
+        color: whitesmoke;
+        letter-spacing: 1px;
+        font-weight: 500;
+        transition: all 0.3s;
+        &:hover{
+            background-color:  #3447d4;
+            color: $color4;
+        }
+    }
+   }
+}

@@ -1,5 +1,569 @@
+// @media screen and (max-width: 320px)
 
-// @media screen  and (max-width :1280px) {
+// {
+//     nav > div a {
+//        font-size:13px;
+//        letter-spacing: 1px;
+//       margin: -5px;
+//        position: relative;
+//        left: 0%;
+//     }
+//     #home{
+//         height: 50vh;
+//     }
+//     nav>a{
+//        display: none;
+//     }
+
+//     #home > section:first-of-type > div > h1{
+//         font-size: 0.8rem;
+//         width: 50%;
+//         position: absolute;
+//         left: 4.8%;
+//         top: 27%;
+//     }
+//     .handWave{
+//        left: 8.5rem;
+//        height: 1.3rem;
+//        top: -0.1rem;
+//        width: 1.7rem;
+//     }
+
+//     #home > section:last-of-type > img{
+//        width: 50%;
+//       object-fit: contain;
+//        top: 22%;
+//        right: -0%;
+//      height: 60%;
+//     }
+//     #home > section:last-of-type::after{
+//         width: 51%;
+//         height: 52vh;
+//         border-radius: 0px 90px 0 0 90px ;
+
+//     }
+
+//     #home > section:first-of-type{
+//       margin-left: -60px;
+//       height: 30%;
+
+//     }
+//     #home > section:first-of-type > div > div > a:last-of-type{
+//         padding: 10px;
+//     }
+//     #home > section:first-of-type > div > div > a:first-of-type{
+//         padding: 10px;
+//         border-radius: 50px;
+
+//     }
+//     #home > section:first-of-type > div .typewriterpara{
+//         font-size: 0.8rem;
+//         left: 4%;
+//         top: 35%;
+//         position: absolute;
+//         width: 39%;
+//     }
+
+//     .home-btns{
+//        font-size:8px;
+//        position: absolute;
+//        flex-direction: column-reverse;
+//        left: 0%;
+//        bottom:25%;
+//     //    width: 4%;
+//     }
+//     #home > section:first-of-type > div > div{
+//       gap: 10px;
+//       left: -23%;
+
+//     }
+
+//     #about>img{
+//        width: 44%;
+//     //    bottom: 3%;
+//     top: 50%;
+//        left: 2%;
+//     }
+//     #about>h1{
+//        right: 1%;
+//        top: 34%;
+//        width: 50%;
+//        font-size: 12px;
+//     }
+//     #about>h4{
+//       right: 31%;
+//       top: 30%;
+//       font-size: 12px;
+
+//     }
+//     .aboutme{
+//        // bottom:2rem;
+//        top: 36%;
+//        left: 40%;
+//        font-size: 10px;
+//     }
+//     #skillBox1 > h4{
+//         font-size: 1rem;
+//     }
+//     #skillBox1>p{
+//         font-size: 10px;
+//     }
+//     .skillBox2{
+//        top: 167%;
+//        .img1{
+//            width: 23px;
+//            height:23px;
+//        }
+//        .img2{
+//         width: 23px;
+//         height:23px;
+//        }
+//        .img3{
+//         width: 24px;
+//         height:24px;
+//        }
+//        .img4{
+//         width: 25px;
+//         height:25px;
+//        }
+//        .img5{
+//         width: 25px;
+//         height:26px;
+//        }
+//        .img6{
+//         width: 25px;
+//         height:25px;
+//        }
+//        .img7{
+//         width: 25px;
+//         height:25px;
+//        }
+//        .img8{
+//         margin-left: 35px;
+//         width: 32px;
+//         height:32px;
+//        }
+//        .img9{
+//         width: 27px;
+//         height:36px;
+//        }
+//        .img10{
+//         width: 23px;
+//         height:35px;
+
+//        }
+//     }
+
+//     #contact > section > form > h2{
+//        font-size:0.9rem;
+//     }
+//     #contact > section > form > input, #contact > section > form > button{
+//       font-size:8px;
+//       margin: 10px;
+//     }
+
+//     #contact > aside img{
+//         position: relative;
+//         right: 10%;
+//         width: 100%;
+
+//     }
+//     #contact > section > form > button{
+//         margin-top: 0px;
+//         width: 45%;
+//         padding: 5px 0  5px  ;
+//     }
+//     #contact > section > form #messagebox{
+//       height: 12vh;
+//       width: 45%;
+//     }
+//    footer{
+//     font-size: 10px;
+//    }
+// }
+
+// Done
+@media screen  and (min-width: 320px) and (max-width: 470px)
+
+{
+    nav > div a {
+       font-size: 12px;
+       letter-spacing: 0.5px;
+       position: relative;
+       left: -2vh;
+    }
+    
+    // nav{
+    //     width: 100%;
+    // }
+    nav>a{
+      
+      display: none;
+    }
+
+    #home > section:first-of-type > div > h1{
+        font-size: 1.4rem;
+        // width: 74%;
+        position: absolute;
+        left: 5%;
+        top: 18%;
+        display: grid;
+        place-items: center;
+    }
+    #home > section:first-of-type > div > div{
+      // width: 35vh;
+      display: grid;
+      place-items: center;
+    }
+    #home > section:first-of-type > div .typewriterpara{
+      position: relative;
+      display: grid;
+      place-items: center;
+      top: -19vh;
+      left: -5vh;
+      font-size: 26px;
+      
+    }
+    .handWave{
+       left: 15rem;
+       height: 2.3rem;
+       top: -0.1rem;
+       width: 2.3rem;
+    }
+
+    #home > section:last-of-type > img{
+       width: 75vw;
+      object-fit: contain;
+      top: 33vh;
+       right: 6vh;
+       height: 53vh;
+      //  display: none;
+       
+    }
+    
+    #home>svg{
+      font-size: 20px;
+    }
+    #home > section:first-of-type{
+      
+      height: 20%;
+      width: 100%;
+      
+      
+    
+
+    }
+
+    #home > section:first-of-type > div > div{
+      gap: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      
+      position: absolute;
+      left: 10vh;
+      
+    }
+    .ui-btn{
+      font-size: 12px;
+      width: 100%;
+      position: relative;
+      top: 50vh;
+      left: -2vh;
+    }
+
+    #about>img{
+       width: 44%;
+       top: 50vh;
+       left: 1%;
+      
+    }
+    #about>h1{
+       right: 2%;
+       top: 34%;
+       width: 50%;
+       font-size: 15px;
+    }
+    #about>h4{
+      right: 12vh;
+      top: 29vh;
+      font-size: 15px;
+
+    }
+    .aboutme{
+       // bottom:2rem;
+       top: 38%;
+       left: 39%;
+       font-size: 14px;
+       object-fit: contain;
+       width: 60%;
+      
+    }
+    #skillBox1>h4{
+      position: absolute;
+      left:42%;
+      top: -1vh;
+      font-size: 18px;
+    }
+    .skillBox2{
+      width: 90%;
+       top: 202%;
+       left: 7px;
+       .img1{
+           width: 30px;
+           height:30px;
+           margin-left: -10px;
+       }
+       .img2{
+        width: 30px;
+           height:30px;
+       }
+       .img3{
+        width: 35px;
+           height:33px;
+           margin-left: -10px;
+       }
+       .img4{
+        width: 35px;
+        height:33px;
+       }
+       .img5{
+        width: 35px;
+        height:35px;
+       }
+       .img6{
+        width: 35px;
+        height:33px;
+        margin-left: -10px;
+       }
+       .img7{
+        width: 35px;
+        height:33px;
+        margin-left: 33px;
+       }
+       .img8{
+        width: 39px;
+        height:39px;
+       }
+       .img9{
+        width: 39px;
+        height:37px;
+        margin-left: -10px;
+       }
+       .img10{
+        width: 39px;
+        height:37px;
+           margin: 22px;
+       }
+    }
+
+    #contact > section > form > h2{
+       font-size: 0.9rem;
+       width: 100%;
+       position: relative;
+       left: 2vh;
+
+    }
+    #contact > section > form > input, #contact > section > form > button{
+      font-size :9px;
+      width: 70%;
+      margin: 10px;
+    }
+
+    #contact > aside img{
+        position: relative;
+        right: 10%;
+        width: 100%;
+
+    }
+    #contact > section > form > button{
+        margin-top: 7px;
+        width: 45%;
+    }
+    #contact > section > form #messagebox{
+      height: 12vh;
+      width: 70%;
+    }
+    footer> a> .github{
+    font-size: 28px;
+    top: 13vh;
+    left: 23vh;
+  }
+  footer
+  
+  >a >.linkdin{
+    top: 13vh;
+    left: 17vh;
+    font-size: 28px;
+  }
+  
+    
+}
+// // @media screen and (max-width: 767px)
+
+// // {
+// //     nav > div a {
+// //        font-size: 17px;
+// //        letter-spacing: 0.4px;
+// //       margin: -7px;
+// //        position: relative;
+// //        left: 20%;
+// //     }
+// //    //  nav{
+// //    //      width: 100%;
+// //    //  }
+// //     nav>a{
+// //        font-size: 17px;
+// //        left: 3%;
+// //     }
+
+// //     #home > section:first-of-type > div > h1{
+// //         font-size: 1.4rem;
+// //         width: 50%;
+// //         position: absolute;
+// //         left: 4.8%;
+// //         top: 27%;
+// //     }
+// //     .handWave{
+// //        left: 15rem;
+// //        height: 2.3rem;
+// //        top: -0.7rem;
+// //        width: 2rem;
+// //     }
+
+// //     #home > section:last-of-type > img{
+// //        width: 48%;
+// //       object-fit: contain;
+// //        top: 45%;
+// //        right: -0%;
+// //      height: 60vh;
+// //     }
+// //     #home > section:last-of-type::after{
+// //         width: 51%;
+// //         height: 90vh;
+// //         border-radius: 0px 90px 0 0 90px ;
+
+// //     }
+
+// //     #home > section:first-of-type{
+// //       margin-left: -65px;
+// //       height: 30%;
+
+// //     }
+
+// //     .home-btns{
+// //        font-size: 12px;
+// //        position: absolute;
+// //        flex-direction: column-reverse;
+// //        left: 0%;
+// //        bottom:-2%;
+
+// //        width: 5%;
+// //     }
+// //     #home > section:first-of-type > div > div{
+// //       gap: 24px;
+// //       left: -23%;
+
+// //     }
+
+// //     #about>img{
+// //        width: 39%;
+// //        bottom: 36%;
+// //        left: 2%;
+// //     }
+// //     #about>h1{
+// //        right: 5.9%;
+// //        top: 32%;
+// //        width: 50%;
+// //        font-size: 16px;
+// //     }
+// //     #about>h4{
+// //       right: 44.5%;
+// //       top: 26%;
+// //       font-size: 17px;
+
+// //     }
+// //     .aboutme{
+// //        // bottom:2rem;
+// //        top: 34%;
+// //        left: 40%;
+// //        font-size: 15px;
+// //        width: 60%;
+
+// //     }
+
+// //     .skillBox2{
+// //        top: 215%;
+// //        .img1{
+// //            width: 45px;
+// //            height:55px;
+// //        }
+// //        .img2{
+// //            width: 53px;
+// //            height: 58px;
+// //        }
+// //        .img3{
+// //            width: 50px;
+// //            height: 53px;
+// //        }
+// //        .img4{
+// //            width: 55px;
+// //            height: 53px;
+// //        }
+// //        .img5{
+// //            width: 55px;
+// //            height: 55px;
+// //        }
+// //        .img6{
+// //            width: 48px;
+// //            height: 52px;
+// //        }
+// //        .img7{
+// //            width: 55px;
+// //            height: 50px;
+// //        }
+// //        .img8{
+// //            width: 64px;
+// //            height: 60px;
+// //        }
+// //        .img9{
+// //            width: 55px;
+// //            height: 55px;
+// //        }
+// //        .img10{
+// //            width: 63px;
+// //            height: 55px;
+// //            margin: 29px;
+// //        }
+// //     }
+
+// //     #contact > section > form > h2{
+// //        font-size: 1.3rem;
+// //     }
+// //     #contact > section > form > input, #contact > section > form > button{
+// //       font-size:12px;
+// //       margin: 10px;
+// //     }
+
+// //     #contact > aside img{
+// //         position: relative;
+// //         right: 10%;
+// //         width: 100%;
+
+// //     }
+// //     #contact > section > form > button{
+// //         margin-top: 7px;
+// //         width: 51%;
+// //     }
+// //     #contact > section > form #messagebox{
+// //       height: 12vh;
+// //       width: 45%;
+// //     }
+
+// // }
+
+// @media  (max-width :992px) {
 //     nav > div a {
 //        font-size: 1rem;
 //        position: relative;
@@ -13,56 +577,52 @@
 
 //        display: none;
 
-
 //     }
 //     .handWave{
-//        left: 60%;
+//        left: 80%;
 //        height: 5rem;
-   
-   
-//        top: 5rem;
+
+//        top: 4rem;
 //        width: 5rem;
 //     }
-    
+
 //     #home > section:last-of-type > img{
-//        width: 25%;
-       
-//        top: 40%;
-//        right: 16%;
+//        width: 31%;
+
+//        top: 36%;
+//        right: 1%;
 //        height: 78vh;
-//     }
-//     #home > section:last-of-type::after{
-//         width: 46%;
-//         height: 90vh;
-//         border-radius: 0px 90px 0 0 90px ;
-        
-        
 //     }
 //     .home-btns{
 //        font-size: 63%;
 //        position: absolute;
-//        left: 13%;
-//        bottom:-2%;
+//        left: 9%;
+//        bottom: -5%;
 //        width: 5%;
 //     }
-  
+//     #home > section:first-of-type > div .typewriterpara{
+//        margin: -19px 0;
+//        height: 31px;
+
+//        font-size: 1.6rem;
+//     }
 //     #about>img{
-//        width: 30%;
+//        width: 31%;
 //        bottom: 36%;
 //        left: 4%;
 //     }
 //     #about>h1{
-//        right: 21%;
-//        top: 24%;
-//        width: 42%;
+//        right: 2.5%;
+//        top: 20%;
+//        width: 60%;
 //     }
 //     #about>h4{
-//        right: 53.5%;
-//        top: 16%;
-       
+//        right: 50%;
+//        top: 12%;
+
 //     }
 //     .aboutme{
-//        width: 49%;
+//        width: 70%;
 //        // bottom:2rem;
 //        top: 32%;
 //        left: 35%;
@@ -114,1028 +674,36 @@
 //     }
 
 //     #contact > section > form > h2{
-//        font-size: 1.5rem;
+//        font-size: 1.8rem;
 //     }
 //     #contact > section > form #messagebox{
 //        height: 10vh;
 //     }
-//     #contact > aside img{
-//         position: relative;
-//         right: 35%;
-//     }
-//     #contact > section > form > button{
-//         margin: 10px;
-//     }
-// }
-@media screen and (max-width: 320px) 
-
-{
-    nav > div a {
-       font-size:13px;
-       letter-spacing: 1px;
-      margin: -5px;
-       position: relative;
-       left: 0%;
-    }
-    #home{
-        height: 50vh;
-    }
-    nav>a{
-       display: none;
-    }
-    
-    #home > section:first-of-type > div > h1{
-        font-size: 0.8rem;
-        width: 50%;
-        position: absolute;
-        left: 4.8%;
-        top: 27%;
-    }
-    .handWave{
-       left: 8.5rem;
-       height: 1.3rem;
-       top: -0.1rem;
-       width: 1.7rem;
-    }
-  
-    #home > section:last-of-type > img{
-       width: 50%;
-      object-fit: contain;
-       top: 22%;
-       right: -0%;
-     height: 60%;
-    }
-    #home > section:last-of-type::after{
-        width: 51%;
-        height: 52vh;
-        border-radius: 0px 90px 0 0 90px ;
-        
-        
-        
-    }
-   
-    #home > section:first-of-type{
-      margin-left: -60px;
-      height: 30%;
-      
-    }
-    #home > section:first-of-type > div > div > a:last-of-type{
-        padding: 10px;
-    }
-    #home > section:first-of-type > div > div > a:first-of-type{
-        padding: 10px;
-        border-radius: 50px;
-
-    }
-    #home > section:first-of-type > div .typewriterpara{
-        font-size: 0.8rem;
-        left: 4%;
-        top: 35%;
-        position: absolute;
-        width: 39%;
-    }
-   
-    .home-btns{
-       font-size:8px;
-       position: absolute;
-       flex-direction: column-reverse;
-       left: 0%;
-       bottom:25%;
-    //    width: 4%;
-    }
-    #home > section:first-of-type > div > div{
-      gap: 10px;
-      left: -23%;
-    
-    }
-  
-    #about>img{
-       width: 44%;
-    //    bottom: 3%;
-    top: 50%;
-       left: 2%;
-    }
-    #about>h1{
-       right: 1%;
-       top: 34%;
-       width: 50%;
-       font-size: 12px;
-    }
-    #about>h4{
-      right: 31%;
-      top: 30%;
-      font-size: 12px;
-       
-    }
-    .aboutme{
-       // bottom:2rem;
-       top: 36%;
-       left: 40%;
-       font-size: 10px;
-    }
-    #skillBox1 > h4{
-        font-size: 1rem;
-    }
-    #skillBox1>p{
-        font-size: 10px;
-    }
-    .skillBox2{
-       top: 167%;
-       .img1{
-           width: 23px;
-           height:23px;
-       }
-       .img2{
-        width: 23px;
-        height:23px;
-       }
-       .img3{
-        width: 24px;
-        height:24px;
-       }
-       .img4{
-        width: 25px;
-        height:25px;
-       }
-       .img5{
-        width: 25px;
-        height:26px;
-       }
-       .img6{
-        width: 25px;
-        height:25px;
-       }
-       .img7{
-        width: 25px;
-        height:25px;
-       }
-       .img8{
-        margin-left: 35px;
-        width: 32px;
-        height:32px;
-       }
-       .img9{
-        width: 27px;
-        height:36px;
-       }
-       .img10{
-        width: 23px;
-        height:35px;
-           
-       }
-    }
-
-    #contact > section > form > h2{
-       font-size:0.9rem;
-    }
-    #contact > section > form > input, #contact > section > form > button{
-      font-size:8px;
-      margin: 10px;
-    }
-   
-    #contact > aside img{
-        position: relative;
-        right: 10%;
-        width: 100%;
-
-    }
-    #contact > section > form > button{
-        margin-top: 0px;
-        width: 45%;
-        padding: 5px 0  5px  ;
-    }
-    #contact > section > form #messagebox{
-      height: 12vh;
-      width: 45%;
-    }
-   footer{
-    font-size: 10px;
-   }
-}
-
-
-@media screen  and (min-width: 310px) and (max-width: 480px) 
-
-{
-    nav > div a {
-       font-size: 14px;
-       letter-spacing: 0.4px;
-      margin: -7px;
-       position: relative;
-       left: 26%;
-      
-    }
-   //  nav{
-   //      width: 100%;
-   //  }
-    nav>a{
-      //  font-size: ;
-      display: none;
-       left: 3%;
-    }
-    
-    #home > section:first-of-type > div > h1{
-        font-size: 1.1rem;
-        width: 50%;
-        position: absolute;
-        left: 7%;
-        top: 27%;
-    }
-    .handWave{
-       left: 12rem;
-       height: 2rem;
-       top: -0.3rem;
-       width: 2.2rem;
-    }
-  
-    #home > section:last-of-type > img{
-       width: 49%;
-      object-fit: contain;
-       top: 50%;
-       right: -0%;
-
-       height: 60vh;
-    }
-    #home > section:last-of-type::after{
-        width: 51%;
-        height: 90vh;
-        border-radius: 0px 90px 0 0 90px ;
-        
-        
-    }
-    #home>svg{
-      display: none;
-    }
-    #home > section:first-of-type{
-      margin-left: -66px;
-      height: 30%;
-      
-    }
-   
-    .home-btns{
-       font-size: 12px;
-       position: absolute;
-       flex-direction: column-reverse;
-       left: 0%;
-       bottom:-2%;
-       
-       width: 5%;
-    }
-    #home > section:first-of-type > div > div{
-      gap: 5px;
-      left: -15%;
-    
-    }
-  
-    #about>img{
-       width: 39%;
-       bottom: 36%;
-       left: 2%;
-    }
-    #about>h1{
-       right: 2%;
-       top: 34%;
-       width: 54%;
-       font-size: 16px;
-    }
-    #about>h4{
-      right: 30.5%;
-      top: 26%;
-       
-    }
-    .aboutme{
-       // bottom:2rem;
-       top: 38%;
-       left: 39%;
-       font-size: 12px;
-    }
-
-    .skillBox2{
-       top: 210%;
-       .img1{
-           width: 30px;
-           height:35px;
-       }
-       .img2{
-           width: 30px;
-           height: 35px;
-       }
-       .img3{
-           width: 38px;
-           height: 37px;
-       }
-       .img4{
-           width: 35px;
-           height: 37px;
-       }
-       .img5{
-           width: 35px;
-           height: 38px;
-       }
-       .img6{
-           width: 36px;
-           height: 38px;
-       }
-       .img7{
-           width: 48px;
-           height: 40px;
-       }
-       .img8{
-           width: 50px;
-           height: 52px;
-       }
-       .img9{
-           width: 39px;
-           height: 50px;
-       }
-       .img10{
-           width: 38px;
-           height: 40px;
-           margin: 27px;
-       }
-    }
-
-    #contact > section > form > h2{
-       font-size: 0.8rem;
-    }
-    #contact > section > form > input, #contact > section > form > button{
-      font-size:9px;
-      margin: 10px;
-    }
-   
-    #contact > aside img{
-        position: relative;
-        right: 15%;
-        width: 100%;
-
-    }
-    #contact > section > form > button{
-        margin-top: 7px;
-    }
-    #contact > section > form #messagebox{
-      height: 12vh;
-      width: 50%;
-    }
-   
-}
-// @media screen and (max-width: 767px)  
-
-// {
-//     nav > div a {
-//        font-size: 17px;
-//        letter-spacing: 0.4px;
-//       margin: -7px;
-//        position: relative;
-//        left: 20%;
-//     }
-//    //  nav{
-//    //      width: 100%;
-//    //  }
-//     nav>a{
-//        font-size: 17px;
-//        left: 3%;
-//     }
-    
-//     #home > section:first-of-type > div > h1{
-//         font-size: 1.4rem;
-//         width: 50%;
-//         position: absolute;
-//         left: 4.8%;
-//         top: 27%;
-//     }
-//     .handWave{
-//        left: 15rem;
-//        height: 2.3rem;
-//        top: -0.7rem;
-//        width: 2rem;
-//     }
-  
-//     #home > section:last-of-type > img{
-//        width: 48%;
-//       object-fit: contain;
-//        top: 45%;
-//        right: -0%;
-//      height: 60vh;
-//     }
-//     #home > section:last-of-type::after{
-//         width: 51%;
-//         height: 90vh;
-//         border-radius: 0px 90px 0 0 90px ;
-        
-        
-//     }
-   
-//     #home > section:first-of-type{
-//       margin-left: -65px;
-//       height: 30%;
-      
-//     }
-   
-//     .home-btns{
-//        font-size: 12px;
-//        position: absolute;
-//        flex-direction: column-reverse;
-//        left: 0%;
-//        bottom:-2%;
-       
-//        width: 5%;
-//     }
-//     #home > section:first-of-type > div > div{
-//       gap: 24px;
-//       left: -23%;
-    
-//     }
-  
-//     #about>img{
-//        width: 39%;
-//        bottom: 36%;
-//        left: 2%;
-//     }
-//     #about>h1{
-//        right: 5.9%;
-//        top: 32%;
-//        width: 50%;
-//        font-size: 16px;
-//     }
-//     #about>h4{
-//       right: 44.5%;
-//       top: 26%;
-//       font-size: 17px;
-       
-//     }
-//     .aboutme{
-//        // bottom:2rem;
-//        top: 34%;
-//        left: 40%;
-//        font-size: 15px;
-//        width: 60%;
-
-//     }
-
-//     .skillBox2{
-//        top: 215%;
-//        .img1{
-//            width: 45px;
-//            height:55px;
-//        }
-//        .img2{
-//            width: 53px;
-//            height: 58px;
-//        }
-//        .img3{
-//            width: 50px;
-//            height: 53px;
-//        }
-//        .img4{
-//            width: 55px;
-//            height: 53px;
-//        }
-//        .img5{
-//            width: 55px;
-//            height: 55px;
-//        }
-//        .img6{
-//            width: 48px;
-//            height: 52px;
-//        }
-//        .img7{
-//            width: 55px;
-//            height: 50px;
-//        }
-//        .img8{
-//            width: 64px;
-//            height: 60px;
-//        }
-//        .img9{
-//            width: 55px;
-//            height: 55px;
-//        }
-//        .img10{
-//            width: 63px;
-//            height: 55px;
-//            margin: 29px;
-//        }
-//     }
-
-//     #contact > section > form > h2{
-//        font-size: 1.3rem;
-//     }
-//     #contact > section > form > input, #contact > section > form > button{
-//       font-size:12px;
-//       margin: 10px;
-//     }
-   
-//     #contact > aside img{
-//         position: relative;
-//         right: 10%;
-//         width: 100%;
-
-//     }
-//     #contact > section > form > button{
-//         margin-top: 7px;
-//         width: 51%;
-//     }
-//     #contact > section > form #messagebox{
-//       height: 12vh;
-//       width: 45%;
-//     }
-   
 // }
 
-@media  (max-width :992px) {
-    nav > div a {
-       font-size: 1rem;
-       position: relative;
-       left: 50%;
-    }
-    nav>a{
-       font-size: 20px;
-       left: 50px;
-    }
-    nav > a> button {
-
-       display: none;
-
-
-    }
-    .handWave{
-       left: 80%;
-       height: 5rem;
-   
-   
-       top: 4rem;
-       width: 5rem;
-    }
-    
-    #home > section:last-of-type > img{
-       width: 31%;
-       
-       top: 36%;
-       right: 1%;
-       height: 78vh;
-    }
-    .home-btns{
-       font-size: 63%;
-       position: absolute;
-       left: 9%;
-       bottom: -5%;
-       width: 5%;
-    }
-    #home > section:first-of-type > div .typewriterpara{
-       margin: -19px 0;
-       height: 31px;
-       
-       font-size: 1.6rem;
-    }
-    #about>img{
-       width: 31%;
-       bottom: 36%;
-       left: 4%;
-    }
-    #about>h1{
-       right: 2.5%;
-       top: 20%;
-       width: 60%;
-    }
-    #about>h4{
-       right: 50%;
-       top: 12%;
-       
-    }
-    .aboutme{
-       width: 70%;
-       // bottom:2rem;
-       top: 32%;
-       left: 35%;
-    }
-
-    .skillBox2{
-       top: 210%;
-       .img1{
-           width: 60px;
-           height:65px;
-       }
-       .img2{
-           width: 60px;
-           height: 65px;
-       }
-       .img3{
-           width: 60px;
-           height: 67px;
-       }
-       .img4{
-           width: 60px;
-           height: 67px;
-       }
-       .img5{
-           width: 60px;
-           height: 67px;
-       }
-       .img6{
-           width: 60px;
-           height: 67px;
-       }
-       .img7{
-           width: 60px;
-           height: 67px;
-       }
-       .img8{
-           width: 60px;
-           height: 67px;
-       }
-       .img9{
-           width: 60px;
-           height: 67px;
-       }
-       .img10{
-           width: 60px;
-           height: 69px;
-           margin: 25px;
-       }
-    }
-
-    #contact > section > form > h2{
-       font-size: 1.8rem;
-    }
-    #contact > section > form #messagebox{
-       height: 10vh;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width:815px)  
-
-{
-    nav > div a {
-       font-size: 15px;
-       letter-spacing: 0.4px;
-       position: relative;
-       left: 26%;
-    }
-   
-    nav>a{
-       font-size: 24px;
-       left: 5%;
-    bottom: 34%;
-    }
-    
-    #home > section:first-of-type > div > h1{
-        font-size: 1.6rem;
-        width: 50%;
-        position: absolute;
-        left: 6.8%;
-        top: 27%;
-        
-    }
-    .handWave{
-       left: 17rem;
-       height: 3rem;
-       top: -0.6rem;
-       width: 2.9rem;
-    }
-  
-    #home > section:last-of-type > img{
-       width: 48%;
-      object-fit: contain;
-       top: 45%;
-       right: -0%;
-     height: 60vh;
-    }
-    #home > section:last-of-type::after{
-        width: 50%;
-        height: 90vh;
-        border-radius: 0px 90px 0 0 90px ;
-      //   display: none;
-        
-        
-    }
-   
-    #home > section:first-of-type{
-      margin-left: -65px;
-      height: 30%;
-      
-    }
-   
-    .home-btns{
-       font-size: 15px;
-       position: absolute;
-       left: 50%;
-       width: 5%;
-    }
-    #home > section:first-of-type > div > div{
-      gap: 24px;
-      left: 5%;
-      top: 30rem;
-     
-    
-    }
-    #home > svg{
-      bottom: 0%;
-    }
-    #home > section:first-of-type > div .typewriterpara{
-        font-size: 1.3rem;
-        left: 6.6%;
-        top: 39%;
-        position: absolute;
-        width: 39%;
-    }
-  
-    #about>img{
-       width: 35%;
-       position: absolute;
-    //    bottom: 37%;
-    top: 19rem;
-       left: 2%;
-    }
-    #about>h1{
-       right: 2.9rem;
-       top: 32%;
-       width: 50%;
-       font-size: 16px;
-    }
-    #about>h4{
-      right: 20.2rem;
-      top: 26%;
-      font-size: 17px;
-       
-    }
-    .aboutme{
-       // bottom:2rem;
-       top: 34%;
-       left: 40%;
-       font-size: 15px;
-       width: 50%;
-
-    }
-
-    .skillBox2{
-       top: 210%;
-       .img1{
-           width: 55px;
-           height:60px;
-       }
-       .img2{
-        width: 65px;
-        height:64px;
-       }
-       .img3{
-        width: 65px;
-        height:64px;
-       }
-       .img4{
-        width: 65px;
-        height:64px;
-       }
-       .img5{
-        width: 65px;
-        height:64px;
-       }
-       .img6{
-        width: 65px;
-        height:64px;
-       }
-       .img7{
-        width: 65px;
-        height:64px;
-       }
-       .img8{
-        width: 75px;
-        height:70px;
-       }
-       .img9{
-        width: 65px;
-        height:64px;
-       }
-       .img10{
-        width: 65px;
-        height:64px;
-           margin: 29px;
-       }
-    }
-
-    #contact > section > form > h2{
-       font-size: 1.6rem;
-    }
-    #contact > section > form > input, #contact > section > form > button{
-      font-size:14px;
-      margin: 10px;
-    }
-   
-    #contact > aside img{
-        position: relative;
-        right: 10%;
-        width: 100%;
-
-    }
-    #contact > section > form > button{
-        margin-top: 7px;
-        width: 43%;
-       
-    }
-    #contact > section > form #messagebox{
-      height: 12vh;
-      width: 45%;
-    }
-   
-}
-
-@media screen and (min-width: 816px) and (max-width:1000px)  
-
-{
-    nav > div a {
-       font-size: 15px;
-       letter-spacing: 0.4px;
-       position: relative;
-       left: 26%;
-    }
-   
-    nav>a{
-       font-size: 24px;
-       left: 5%;
-    bottom: 34%;
-    }
-    
-    #home > section:first-of-type > div > h1{
-        font-size: 1.6rem;
-        width: 50%;
-        position: absolute;
-        left: 6.8%;
-        top: 27%;
-        
-    }
-    .handWave{
-       left: 17rem;
-       height: 3rem;
-       top: -0.6rem;
-       width: 2.9rem;
-    }
-  
-    #home > section:last-of-type > img{
-       width: 48%;
-      object-fit: contain;
-       top: 45%;
-       right: -0%;
-     height: 60vh;
-    }
-    #home > section:last-of-type::after{
-        width: 50%;
-        height: 90vh;
-        border-radius: 0px 90px 0 0 90px ;
-      //   display: none;
-        
-        
-    }
-   
-    #home > section:first-of-type{
-      margin-left: -65px;
-      height: 30%;
-      
-    }
-   
-    .home-btns{
-       font-size: 15px;
-       position: absolute;
-       left: 50%;
-       width: 5%;
-    }
-    #home > section:first-of-type > div > div{
-      gap: 24px;
-      left: 5%;
-      top: 30rem;
-     
-    
-    }
-    #home > svg{
-      bottom: 0%;
-    }
-    #home > section:first-of-type > div .typewriterpara{
-        font-size: 1.3rem;
-        left: 6.6%;
-        top: 39%;
-        position: absolute;
-        width: 39%;
-    }
-  
-    #about>img{
-       width: 35%;
-       position: absolute;
-    //    bottom: 37%;
-    top: 21rem;
-       left: 2%;
-    }
-    #about>h1{
-       right: 2.9rem;
-       top: 32%;
-       width: 50%;
-       font-size: 16px;
-    }
-    #about>h4{
-      right: 21.7rem;
-      top: 26%;
-      font-size: 17px;
-       
-    }
-    .aboutme{
-       // bottom:2rem;
-       top: 34%;
-       left: 40%;
-       font-size: 15px;
-       width: 50%;
-
-    }
-
-    .skillBox2{
-       top: 206%;
-       .img1{
-           width: 55px;
-           height:60px;
-       }
-       .img2{
-        width: 65px;
-        height:64px;
-       }
-       .img3{
-        width: 65px;
-        height:64px;
-       }
-       .img4{
-        width: 65px;
-        height:64px;
-       }
-       .img5{
-        width: 65px;
-        height:64px;
-       }
-       .img6{
-        width: 65px;
-        height:64px;
-       }
-       .img7{
-        width: 65px;
-        height:64px;
-       }
-       .img8{
-        width: 75px;
-        height:70px;
-       }
-       .img9{
-        width: 65px;
-        height:64px;
-       }
-       .img10{
-        width: 65px;
-        height:64px;
-           margin: 29px;
-       }
-    }
-
-    #contact > section > form > h2{
-       font-size: 1.6rem;
-    }
-    #contact > section > form > input, #contact > section > form > button{
-      font-size:14px;
-      margin: 10px;
-    }
-   
-    #contact > aside img{
-        position: relative;
-        right: 10%;
-        width: 100%;
-
-    }
-    #contact > section > form > button{
-        margin-top: 7px;
-        width: 43%;
-       
-    }
-    #contact > section > form #messagebox{
-      height: 12vh;
-      width: 45%;
-    }
-   
-}
-// @media screen and (min-width: 816px) and (max-width:1000px)  
+// @media screen and (min-width: 768px) and (max-width:815px)
 
 // {
 //     nav > div a {
 //        font-size: 15px;
 //        letter-spacing: 0.4px;
 //        position: relative;
-//        left: 14%;
+//        left: 26%;
 //     }
-   
+
 //     nav>a{
 //        font-size: 24px;
 //        left: 5%;
 //     bottom: 34%;
 //     }
-    
+
 //     #home > section:first-of-type > div > h1{
 //         font-size: 1.6rem;
 //         width: 50%;
 //         position: absolute;
 //         left: 6.8%;
 //         top: 27%;
-        
+
 //     }
 //     .handWave{
 //        left: 17rem;
@@ -1143,7 +711,7 @@
 //        top: -0.6rem;
 //        width: 2.9rem;
 //     }
-  
+
 //     #home > section:last-of-type > img{
 //        width: 48%;
 //       object-fit: contain;
@@ -1156,16 +724,15 @@
 //         height: 90vh;
 //         border-radius: 0px 90px 0 0 90px ;
 //       //   display: none;
-        
-        
+
 //     }
-   
+
 //     #home > section:first-of-type{
 //       margin-left: -65px;
 //       height: 30%;
-      
+
 //     }
-   
+
 //     .home-btns{
 //        font-size: 15px;
 //        position: absolute;
@@ -1176,8 +743,7 @@
 //       gap: 24px;
 //       left: 5%;
 //       top: 30rem;
-     
-    
+
 //     }
 //     #home > svg{
 //       bottom: 0%;
@@ -1189,25 +755,25 @@
 //         position: absolute;
 //         width: 39%;
 //     }
-  
+
 //     #about>img{
 //        width: 35%;
 //        position: absolute;
 //     //    bottom: 37%;
-//     top: 13rem;
+//     top: 19rem;
 //        left: 2%;
 //     }
 //     #about>h1{
-//        right: 7%;
+//        right: 2.9rem;
 //        top: 32%;
 //        width: 50%;
 //        font-size: 16px;
 //     }
 //     #about>h4{
-//       right: 48%;
+//       right: 20.2rem;
 //       top: 26%;
 //       font-size: 17px;
-       
+
 //     }
 //     .aboutme{
 //        // bottom:2rem;
@@ -1270,7 +836,7 @@
 //       font-size:14px;
 //       margin: 10px;
 //     }
-   
+
 //     #contact > aside img{
 //         position: relative;
 //         right: 10%;
@@ -1280,853 +846,1399 @@
 //     #contact > section > form > button{
 //         margin-top: 7px;
 //         width: 43%;
-       
+
 //     }
 //     #contact > section > form #messagebox{
 //       height: 12vh;
 //       width: 45%;
 //     }
-   
+
 // }
 
+// @media screen and (min-width: 816px) and (max-width:1000px)
 
-@media screen  and (min-width :1000px) and (max-width:1104px) {
-    nav > div a {
-       font-size: 1rem;
-     
-    }
-    nav>a{
-       font-size: 24px;
-       left: 33px;
-    }
-    nav > a> button {
-       right: -48rem;
-       top: 56%;
-       position: relative;
-       padding: 12px 1 ;
-       font-size: 12px ;
-    }
-    #home > section:first-of-type > div > h1{
-        font-size: 2rem;
-    }
-    .handWave{
-       left: 90%;
-       height: 4rem;
-       top: -1rem;
-       width: 4rem;
-    }
-    #home > section:first-of-type > div .typewriterpara{
-        font-size: 1.3rem;
-    }
-    
-    #home > section:last-of-type > img{
-       width: 40%;
-       top: 36%;
-       right: 2%;
-       height: 78vh;
-    }
-    #home > section:last-of-type::after{
-        width: 46%;
-        height: 93vh;
-        border-radius: 0px 90px 0 0 90px ;
-        
-        
-    }
-    .home-btns{
-       font-size: 14px;
-       position: absolute;
-       left: 13%;
-       bottom:-2%;
-       width: 5%;
-    }
-  
-    #about>img{
-       width: 30%;
-       top: 30%;
-       left: 4%;
-    }
-    #about>h1{
-       right: 7.2%;
-       top: 22%;
-       width: 55%;
-       font-weight: 400;
-    }
-    #about>h4{
-       right: 50%;
-       top: 16%;
-       
-    }
-    .aboutme{
-       width: 63%;
-       // bottom:2rem;
-       top: 32%;
-       left: 35%;
-    }
+// {
+//     nav > div a {
+//        font-size: 15px;
+//        letter-spacing: 0.4px;
+//        position: relative;
+//        left: 26%;
+//     }
 
-    .skillBox2{
-       top: 210%;
-       .img1{
-           width: 70px;
-           height:75px;
-       }
-       .img2{
-        width: 70px;
-        height:75px;
-       }
-       .img3{
-        width: 70px;
-        height:75px;
-       }
-       .img4{
-        width: 70px;
-        height:75px;
-       }
-       .img5{
-        width: 70px;
-        height:75px;
-       }
-       .img6{
-        width: 70px;
-        height:75px;
-       }
-       .img7{
-        width: 70px;
-           height:75px;
-       }
-       .img8{
-        width: 90px;
-           height:85px;
-       }
-       .img9{
-        width: 70px;
-        height:75px;
-       }
-       .img10{
-        width: 70px;
-        height:75px;
-           margin: 25px;
-       }
-    }
+//     nav>a{
+//        font-size: 24px;
+//        left: 5%;
+//     bottom: 34%;
+//     }
 
-    #contact > section > form > h2{
-       font-size: 1.7rem;
-    }
-    #contact > section > form #messagebox{
-       height: 10vh;
-       width: 59%;
-    }
-    #contact > aside img{
-        position: relative;
-        right: 10%;
-    }
-    #contact > section > form > button{
-        margin: 7px;
-    }
-    #contact > section > form > input, #contact > section > form > button{
-        width: 60%;
-    }
-}
+//     #home > section:first-of-type > div > h1{
+//         font-size: 1.6rem;
+//         width: 50%;
+//         position: absolute;
+//         left: 6.8%;
+//         top: 27%;
 
-@media screen  and (min-width :1104px) and (max-width:1200px) {
-    nav > div a {
-       font-size: 1rem;
-     
-    }
-    nav>a{
-       font-size: 24px;
-       left: 33px;
-    }
-    nav > a> button {
-       right: -54rem;
-       top: 56%;
-       position: relative;
-       padding: 12px 1 ;
-       font-size: 12px ;
-    }
-    #home > section:first-of-type > div > h1{
-        font-size: 2rem;
-    }
-    .handWave{
-       left: 80%;
-       height: 3.4rem;
-       top: -0.3rem;
-       width: 3.4rem;
-    }
-    #home > section:first-of-type > div .typewriterpara{
-        font-size: 1.3rem;
-    }
-    
-    #home > section:last-of-type > img{
-       width: 34%;
-       top: 33%;
-       right: 2%;
-       height: 78vh;
-    }
-    #home > section:last-of-type::after{
-        width: 46%;
-        height: 93vh;
-        border-radius: 0px 90px 0 0 90px ;
-        
-        
-    }
-    .home-btns{
-       font-size: 14px;
-       position: absolute;
-       left: 13%;
-       bottom:-2%;
-       width: 5%;
-    }
-  
-    #about>img{
-       width: 30%;
-       top: 30%;
-       left: 4%;
-    }
-    #about>h1{
-       right: 7.2%;
-       top: 27%;
-       width: 55%;
-       font-weight: 400;
-       font-size: 26px;
-    }
-    #about>h4{
-       right: 51.4%;
-       top: 21%;
-       
-    }
-    .aboutme{
-       width: 63%;
-       font-size: 20px;
-       // bottom:2rem;
-       top: 32%;
-       left: 35%;
-    }
+//     }
+//     .handWave{
+//        left: 17rem;
+//        height: 3rem;
+//        top: -0.6rem;
+//        width: 2.9rem;
+//     }
 
-    .skillBox2{
-       top: 210%;
-       .img1{
-           width: 70px;
-           height:75px;
-       }
-       .img2{
-        width: 84px;
-        height:80px;
-       }
-       .img3{
-        width: 70px;
-        height:75px;
-       }
-       .img4{
-        width: 70px;
-        height:75px;
-       }
-       .img5{
-        width: 70px;
-        height:75px;
-       }
-       .img6{
-        width: 70px;
-        height:75px;
-       }
-       .img7{
-        width: 70px;
-           height:75px;
-       }
-       .img8{
-        width: 90px;
-           height:85px;
-       }
-       .img9{
-        width: 70px;
-        height:75px;
-       }
-       .img10{
-        width: 70px;
-        height:75px;
-           margin: 25px;
-       }
-    }
+//     #home > section:last-of-type > img{
+//        width: 48%;
+//       object-fit: contain;
+//        top: 45%;
+//        right: -0%;
+//      height: 60vh;
+//     }
+//     #home > section:last-of-type::after{
+//         width: 50%;
+//         height: 90vh;
+//         border-radius: 0px 90px 0 0 90px ;
+//       //   display: none;
 
-    #contact > section > form > h2{
-       font-size: 1.7rem;
-    }
-    #contact > section > form #messagebox{
-       height: 10vh;
-       width: 59%;
-    }
-    #contact > aside img{
-        position: relative;
-        right: 10%;
-    }
-    #contact > section > form > button{
-        margin: 7px;
-    }
-    #contact > section > form > input, #contact > section > form > button{
-        width: 60%;
-    }
-}
+//     }
 
-@media screen  and (min-width :1200px) and (max-width:1400px) {
-    nav > div a {
-       font-size: 1.1rem;
-     
-    }
-    nav>a{
-       font-size: 29px;
-       left: 46px;
-       
-    }
-    nav > a> button {
-       right: -55rem;
-       top: 56%;
-       position: relative;
-       padding: 12px 1 ;
-       font-size: 12px ;
-    }
-    #home > section:first-of-type > div > h1{
-        font-size: 2.5rem;
-    }
-    .handWave{
-       left: 92%;
-       height: 3.4rem;
-       top: -0.1rem;
-       width: 3.4rem;
-    }
-    #home > section:first-of-type > div .typewriterpara{
-        font-size: 1.7rem;
-    }
-    
-    #home > section:last-of-type > img{
-       width: 36%;
-       top: 28%;
-       right: 2%;
-       height: 78vh;
-    }
-    #home > section:last-of-type::after{
-        width: 46%;
-        height: 93vh;
-        border-radius: 0px 90px 0 0 90px ;  
-    }
-    .home-btns{
-       font-size: 16px;
-       position: absolute;
-       left: 13%;
-       bottom:-2%;
-       width: 5%;
-    }
-  
-    #about>img{
-       width: 30%;
-       top: 23%;
-       left: 3%;
-    }
-    #about>h1{
-       right: 8%;
-       top: 22%;
-       width: 55%;
-       font-weight: 400;
-       font-size: 35px;
-    }
-    #about>h4{
-       right: 54%;
-       top: 16%;
-       
-    }
-    .aboutme{
-       width: 63%;
-       font-size: 20px;
-       // bottom:2rem;
-       top: 32%;
-       left: 35%;
-    }
+//     #home > section:first-of-type{
+//       margin-left: -65px;
+//       height: 30%;
 
-    .skillBox2{
-       top: 206%;
-       .img1{
-           width: 80px;
-           height:90px;
-       }
-       .img2{
-        width: 95px;
-           height:95px;
-       }
-       .img3{
-        width: 90px;
-           height:95px;
-       }
-       .img4{
-        width: 90px;
-           height:95px;
-       }
-       .img5{
-        width: 90px;
-           height:95px;
-       }
-       .img6{
-        width: 90px;
-        height:95px;
-       }
-       .img7{
-        width: 90px;
-        height:95px;
-       }
-       .img8{
-        width: 100px;
-           height:95px;
-       }
-       .img9{
-        width: 80px;
-        height:85px;
-       }
-       .img10{
-        width: 90px;
-        height:95px;
-           margin-top: 10px;
-           margin-left: 40px;
-       }
-    }
+//     }
 
-    #contact > section > form > h2{
-       font-size: 1.9rem;
-    }
-    #contact > section > form #messagebox{
-       height: 20vh;
-       width: 59%;
-    }
-    #contact > aside img{
-        position: relative;
-        width: 100%;
-        right: 10%;
-    }
-    #contact > section > form > button{
-        margin: 7px;
-    }
-    #contact > section > form > input, #contact > section > form > button{
-        width: 60%;
-    }
-}
+//     .home-btns{
+//        font-size: 15px;
+//        position: absolute;
+//        left: 50%;
+//        width: 5%;
+//     }
+//     #home > section:first-of-type > div > div{
+//       gap: 24px;
+//       left: 5%;
+//       top: 30rem;
 
-@media screen  and (min-width :1400px) and (max-width:1412px) {
-   nav > div a {
-      font-size: 1.3rem;
-      
-    
-   }
-   nav>a{
-      font-size: 27px;
-      left: 46px;
-   }
-   nav > a> button {
-      right: -68rem;
-      top: 56%;
-      position: relative;
-      padding: 12px 1 ;
-      font-size: 12px ;
-   }
-   #home > section:first-of-type > div > h1{
-       font-size: 2.5rem;
-   }
-   .handWave{
-      left: 82%;
-      height: 3.4rem;
-      top: -0.1rem;
-      width: 3.4rem;
-   }
-   #home > section:first-of-type > div .typewriterpara{
-       font-size: 1.7rem;
-   }
-   
-   #home > section:last-of-type > img{
-      width: 36%;
-      top: 28%;
-      right: 2%;
-      height: 78vh;
-   }
-   #home > section:last-of-type::after{
-       width: 46%;
-       height: 93vh;
-       border-radius: 0px 90px 0 0 90px ;  
-   }
-   .home-btns{
-      font-size: 16px;
-      position: absolute;
-      left: 13%;
-      bottom:-2%;
-      width: 5%;
-   }
- 
-   #about>img{
-      width: 30%;
-      top: 23%;
-      left: 3%;
-   }
-   #about>h1{
-      right: 8%;
-      top: 22%;
-      width: 55%;
-      font-weight: 400;
-      font-size: 35px;
-   }
-   #about>h4{
-      right: 54%;
-      top: 16%;
-      
-   }
-   .aboutme{
-      width: 63%;
-      font-size: 20px;
-      // bottom:2rem;
-      top: 32%;
-      left: 35%;
-   }
+//     }
+//     #home > svg{
+//       bottom: 0%;
+//     }
+//     #home > section:first-of-type > div .typewriterpara{
+//         font-size: 1.3rem;
+//         left: 6.6%;
+//         top: 39%;
+//         position: absolute;
+//         width: 39%;
+//     }
 
-   .skillBox2{
-      top: 210%;
-      .img1{
-          width: 90px;
-          height:95px;
-      }
-      .img2{
-       width: 90px;
-          height:95px;
-      }
-      .img3{
-       width: 90px;
-          height:95px;
-      }
-      .img4{
-       width: 90px;
-          height:95px;
-      }
-      .img5{
-       width: 90px;
-          height:95px;
-      }
-      .img6{
-       width: 90px;
-       height:95px;
-      }
-      .img7{
-       width: 90px;
-       height:95px;
-      }
-      .img8{
-       width: 100px;
-          height:95px;
-      }
-      .img9{
-       width: 80px;
-       height:85px;
-      }
-      .img10{
-       width: 90px;
-       height:95px;
-          margin: 18px;
-      }
-   }
+//     #about>img{
+//        width: 35%;
+//        position: absolute;
+//     //    bottom: 37%;
+//     top: 21rem;
+//        left: 2%;
+//     }
+//     #about>h1{
+//        right: 2.9rem;
+//        top: 32%;
+//        width: 50%;
+//        font-size: 16px;
+//     }
+//     #about>h4{
+//       right: 21.7rem;
+//       top: 26%;
+//       font-size: 17px;
 
-   #contact > section > form > h2{
-      font-size: 1.9rem;
-      margin-top: 100px;
-   }
-   #contact > section > form #messagebox{
-      height: 20vh;
-      width: 59%;
-   }
-   #contact > aside img{
-       position: relative;
-       width: 100%;
-       right: 10%;
-   }
-   #contact > section > form > button{
-       margin: 7px;
-   }
-   #contact > section > form > input, #contact > section > form > button{
-       width: 60%;
-   }
-}
+//     }
+//     .aboutme{
+//        // bottom:2rem;
+//        top: 34%;
+//        left: 40%;
+//        font-size: 15px;
+//        width: 50%;
 
+//     }
 
+//     .skillBox2{
+//        top: 206%;
+//        .img1{
+//            width: 55px;
+//            height:60px;
+//        }
+//        .img2{
+//         width: 65px;
+//         height:64px;
+//        }
+//        .img3{
+//         width: 65px;
+//         height:64px;
+//        }
+//        .img4{
+//         width: 65px;
+//         height:64px;
+//        }
+//        .img5{
+//         width: 65px;
+//         height:64px;
+//        }
+//        .img6{
+//         width: 65px;
+//         height:64px;
+//        }
+//        .img7{
+//         width: 65px;
+//         height:64px;
+//        }
+//        .img8{
+//         width: 75px;
+//         height:70px;
+//        }
+//        .img9{
+//         width: 65px;
+//         height:64px;
+//        }
+//        .img10{
+//         width: 65px;
+//         height:64px;
+//            margin: 29px;
+//        }
+//     }
 
-@media screen  and (min-width :1411px) and (max-width:1500px) {
+//     #contact > section > form > h2{
+//        font-size: 1.6rem;
+//     }
+//     #contact > section > form > input, #contact > section > form > button{
+//       font-size:14px;
+//       margin: 10px;
+//     }
+
+//     #contact > aside img{
+//         position: relative;
+//         right: 10%;
+//         width: 100%;
+
+//     }
+//     #contact > section > form > button{
+//         margin-top: 7px;
+//         width: 43%;
+
+//     }
+//     #contact > section > form #messagebox{
+//       height: 12vh;
+//       width: 45%;
+//     }
+
+// }
+
+//Done
+@media screen and (min-width: 700px) and (max-width:799px)
+
+{
     nav > div a {
        font-size: 1.2rem;
-      
-     
-    }
-    nav>a{
-       font-size: 30px;
-       left: 46px;
-    }
-    nav > a> button {
-       right: -68rem;
-       top: 56%;
+       letter-spacing: 0.4px;
        position: relative;
-       padding: 12px 1 ;
-       font-size: 12px ;
+       left: 14.3vh;
     }
+
+    nav>a{
+       font-size: 29px;
+       left: 3.5%;
+    bottom: 34%;
+    }
+
     #home > section:first-of-type > div > h1{
-        font-size: 2.5rem;
+        font-size: 1.9rem;
+        width: 50%;
+        position: absolute;
+        left: 6.8%;
+        top: 27%;
+
     }
     .handWave{
-       left: 82%;
-       height: 3.4rem;
+       left: 20.3rem;
+       height: 3.1rem;
        top: -0.1rem;
-       width: 3.4rem;
+       width: 3.1rem;
+    }
+
+    #home > section:last-of-type > img{
+       width: 50vw;
+      object-fit: contain;
+       top: 15vh;
+       right: -0%;
+   
+    }
+    
+
+    #home > section:first-of-type{
+      margin-left: -60px;
+      height: 30%;
+
+    }
+
+  
+    .ui-btn{
+      position: relative;
+      top: 17vh;
+      width: 100%;
+      left: -2vh;
+      font-size: 13px;
+    }
+    #home > section:first-of-type > div > div{
+      gap: 33px;
+      left: 5%;
+      top: 30rem;
+
+    }
+    #home > svg{
+      bottom: 24%;
     }
     #home > section:first-of-type > div .typewriterpara{
         font-size: 1.7rem;
+        left: 6.6%;
+        top: 39%;
+        position: absolute;
+        width: 39%;
     }
-    
-    #home > section:last-of-type > img{
-       width: 36%;
-       top: 28%;
-       right: 2%;
-       height: 78vh;
+    #home{
+      height: 66vh;
     }
-    #home > section:last-of-type::after{
-        width: 46%;
-        height: 93vh;
-        border-radius: 0px 90px 0 0 90px ;  
-    }
-    .home-btns{
-       font-size: 16px;
-       position: absolute;
-       left: 13%;
-       bottom:-2%;
-       width: 5%;
-    }
-  
+
     #about>img{
-       width: 30%;
-       top: 23%;
-       left: 3%;
+       width: 40vw;
+       position: absolute;
+       top: 39vh;
+       left: 2%;
     }
     #about>h1{
-       right: 8%;
-       top: 22%;
-       width: 55%;
-       font-weight: 400;
-       font-size: 35px;
+       right: 5vh;
+       top: 32%;
+       width: 50%;
+       font-size: 22px;
     }
     #about>h4{
-       right: 54.3%;
-       top: 16%;
-       
+      right: 35vh;
+      top: 28vh;
+      font-size: 19px;
+      
     }
+    
     .aboutme{
-       width: 63%;
-       font-size: 20px;
        // bottom:2rem;
-       top: 32%;
-       left: 35%;
+       top: 34%;
+       left: 40%;
+       font-size: 22px;
+       width: 58%;
+
+    }
+
+    #skillBox1>h4{
+      position: absolute;
+      left: 30vh;
     }
 
     .skillBox2{
-       top: 210%;
+       top: 177vh;
        .img1{
-           width: 90px;
-           height:95px;
+           width: 73px;
+           height:70px;
        }
        .img2{
-        width: 90px;
-           height:95px;
+         width: 89px;
+         height:76px;
        }
        .img3{
-        width: 90px;
-           height:95px;
+        width: 89px;
+        height:78px;
        }
        .img4{
-        width: 90px;
-           height:95px;
+         width: 79px;
+         height:73px;
        }
        .img5{
-        width: 90px;
-           height:95px;
+        width: 89px;
+        height:76px;
        }
        .img6{
-        width: 90px;
-        height:95px;
+         width: 79px;
+         height:73px;
        }
        .img7{
-        width: 90px;
-        height:95px;
+        width: 89px;
+        height:76px;
        }
        .img8{
-        width: 100px;
-           height:95px;
+         width: 99px;
+         height:90px;
        }
        .img9{
-        width: 80px;
-        height:85px;
+        width: 89px;
+        height:76px;
+         
        }
        .img10{
-        width: 90px;
-        height:95px;
-           margin: 28px;
+        width: 89px;
+        height:76px;
+         margin: 23px;
        }
     }
 
     #contact > section > form > h2{
-       font-size: 1.9rem;
-       margin-top: 130px;
-    }
-    #contact > section > form #messagebox{
-       height: 20vh;
-       width: 59%;
-    }
-    #contact > aside img{
-        position: relative;
-        width: 100%;
-        right: 10%;
-    }
-    #contact > section > form > button{
-        margin: 7px;
+       font-size: 2rem;
     }
     #contact > section > form > input, #contact > section > form > button{
-        width: 60%;
+      font-size:19px;
+      margin: 10px;
+      width: 70%;
     }
-}
 
+    #contact > aside img{
+        position: relative;
+        right: 10%;
+        width: 100%;
 
-@media screen  and (min-width :1501px) and (max-width:1700px) {
-   nav > div a {
-      font-size: 1.2rem;
-     
-    
-   }
-   nav>a{
-      font-size: 30px;
-      left: 46px;
-   }
-   nav > a> button {
-      right: -68rem;
-      top: 56%;
-      position: relative;
-      padding: 12px 1 ;
-      font-size: 12px ;
-   }
-   #home > section:first-of-type > div > h1{
-       font-size: 2.5rem;
-   }
-   .handWave{
-      left: 75%;
-      height: 3.4rem;
-      top: -0.1rem;
-      width: 3.4rem;
-   }
-   #home > section:first-of-type > div .typewriterpara{
-       font-size: 1.7rem;
-   }
-   
-   #home > section:last-of-type > img{
-      width: 36%;
-      top: 28%;
-      right: 2%;
-      height: 78vh;
-   }
-   #home > section:last-of-type::after{
-       width: 46%;
-       height: 93vh;
-       border-radius: 0px 90px 0 0 90px ;  
-   }
-   .home-btns{
-      font-size: 16px;
-      position: absolute;
-      left: 13%;
-      bottom:-2%;
-      width: 5%;
-   }
- 
-   #about>img{
-      width: 30%;
-      top: 23%;
-      left: 3%;
-   }
-   #about>h1{
-      right: 8%;
-      top: 22%;
-      width: 55%;
-      font-weight: 400;
-      font-size: 35px;
-   }
-   #about>h4{
-      right: 54.7%;
-      top: 16%;
+    }
+    #contact > section > form > button{
+        margin-top: 7px;
+        width: 70%;
+
+    }
+    #contact > section > form #messagebox{
+      height: 12vh;
+      width: 70%;
+    }
+    footer{
+      font-size: 25px;
       
-   }
-   .aboutme{
-      width: 63%;
-      font-size: 20px;
-      // bottom:2rem;
-      top: 32%;
-      left: 35%;
-   }
+    }
+    footer> a> .github{
+      font-size: 50px;
+      top: 7vh;
+      left: 73vh;
+    }
+    footer> a> .linkdin{
+      font-size: 50px;
+      top: 7vh;
+      left: 65vh;
+    }
 
-   .skillBox2{
-      top: 210%;
-      .img1{
-          width: 90px;
-          height:95px;
-      }
-      .img2{
-       width: 90px;
-          height:95px;
-      }
-      .img3{
-       width: 90px;
-          height:95px;
-      }
-      .img4{
-       width: 90px;
-          height:95px;
-      }
-      .img5{
-       width: 90px;
-          height:95px;
-      }
-      .img6{
-       width: 90px;
-       height:95px;
-      }
-      .img7{
-       width: 90px;
-       height:95px;
-      }
-      .img8{
-       width: 100px;
-          height:95px;
-      }
-      .img9{
-       width: 80px;
-       height:85px;
-      }
-      .img10{
-       width: 90px;
-       height:95px;
-          margin: 28px;
-      }
-   }
-
-   #contact > section > form > h2{
-      font-size: 1.9rem;
-      margin-top: 130px;
-   }
-   #contact > section > form #messagebox{
-      height: 20vh;
-      width: 59%;
-   }
-   #contact > aside img{
-       position: relative;
-       width: 100%;
-       right: 10%;
-   }
-   #contact > section > form > button{
-       margin: 7px;
-   }
-   #contact > section > form > input, #contact > section > form > button{
-       width: 60%;
-   }
 }
 
 
+
+//Done
+@media screen and (min-width: 800px) and (max-width:1000px)
+
+{
+    nav > div a {
+       font-size: 1.2rem;
+       letter-spacing: 0.4px;
+       position: relative;
+       left: 14.3vh;
+    }
+
+    nav>a{
+       font-size: 27px;
+       left: 5%;
+    bottom: 34%;
+    }
+
+    #home > section:first-of-type > div > h1{
+        font-size: 1.6rem;
+        width: 50%;
+        position: absolute;
+        left: 6.8%;
+        top: 27%;
+
+    }
+    .handWave{
+       left: 17rem;
+       height: 3.3rem;
+       top: -0.6rem;
+       width: 3.3rem;
+    }
+
+    #home > section:last-of-type > img{
+       width: 56vw;
+      object-fit: contain;
+       top: 15vh;
+       right: -0%;
+   
+    }
+    
+
+    #home > section:first-of-type{
+      margin-left: -60px;
+      height: 30%;
+
+    }
+
+  
+    .ui-btn{
+      position: relative;
+      top: 17vh;
+      width: 10vh;
+      left: -4.4vh;
+    }
+    #home > section:first-of-type > div > div{
+      gap: 33px;
+      left: 5%;
+      top: 30rem;
+
+    }
+    #home > svg{
+      bottom: 26.8%;
+    }
+    #home > section:first-of-type > div .typewriterpara{
+        font-size: 1.5rem;
+        left: 6.6%;
+        top: 39%;
+        position: absolute;
+        width: 39%;
+    }
+    #home{
+      height: 64vh;
+    }
+
+    #about>img{
+       width: 40vw;
+       position: absolute;
+       top: 39vh;
+       left: 2%;
+    }
+    #about>h1{
+       right: 4vh;
+       top: 32%;
+       width: 50%;
+       font-size: 21px;
+    }
+    #about>h4{
+      right: 30vh;
+      top: 28vh;
+      font-size: 19px;
+      
+    }
+    
+    .aboutme{
+       // bottom:2rem;
+       top: 34%;
+       left: 40%;
+       font-size: 22px;
+       width: 58%;
+
+    }
+
+    #skillBox1>h4{
+      position: absolute;
+      left: 25vh;
+    }
+
+    .skillBox2{
+       top: 177vh;
+       .img1{
+           width: 70px;
+           height:70px;
+       }
+       .img2{
+         width: 89px;
+         height:76px;
+       }
+       .img3{
+        width: 89px;
+        height:78px;
+       }
+       .img4{
+         width: 79px;
+         height:73px;
+       }
+       .img5{
+        width: 89px;
+        height:76px;
+       }
+       .img6{
+         width: 79px;
+         height:73px;
+       }
+       .img7{
+        width: 89px;
+        height:76px;
+       }
+       .img8{
+         width: 99px;
+         height:90px;
+       }
+       .img9{
+        width: 89px;
+        height:76px;
+         
+       }
+       .img10{
+        width: 89px;
+        height:76px;
+         margin: 23px;
+       }
+    }
+
+    #contact > section > form > h2{
+       font-size: 1.8rem;
+    }
+    #contact > section > form > input, #contact > section > form > button{
+      font-size:17px;
+      margin: 10px;
+      width: 70%;
+    }
+
+    #contact > aside img{
+        position: relative;
+        right: 10%;
+        width: 100%;
+
+    }
+    #contact > section > form > button{
+        margin-top: 7px;
+        width: 73%;
+
+    }
+    #contact > section > form #messagebox{
+      height: 12vh;
+      width: 70%;
+    }
+    footer{
+      font-size: 25px;
+      
+    }
+    footer> a> .github{
+    
+      top: 9vh;
+      left: 29vh;
+    }
+    footer> a> .linkdin{
+    
+      top: 9vh;
+      left: 22vh;
+    }
+
+}
+
+// @media screen  and (min-width :1000px) and (max-width:1104px) {
+//     nav > div a {
+//        font-size: 1rem;
+
+//     }
+//     nav>a{
+//        font-size: 24px;
+//        left: 33px;
+//     }
+//     nav > a> button {
+//        right: -48rem;
+//        top: 56%;
+//        position: relative;
+//        padding: 12px 1 ;
+//        font-size: 12px ;
+//     }
+//     #home > section:first-of-type > div > h1{
+//         font-size: 2rem;
+//     }
+//     .handWave{
+//        left: 90%;
+//        height: 4rem;
+//        top: -1rem;
+//        width: 4rem;
+//     }
+//     #home > section:first-of-type > div .typewriterpara{
+//         font-size: 1.3rem;
+//     }
+
+//     #home > section:last-of-type > img{
+//        width: 40%;
+//        top: 36%;
+//        right: 2%;
+//        height: 78vh;
+//     }
+//     #home > section:last-of-type::after{
+//         width: 46%;
+//         height: 93vh;
+//         border-radius: 0px 90px 0 0 90px ;
+
+//     }
+//     .home-btns{
+//        font-size: 14px;
+//        position: absolute;
+//        left: 13%;
+//        bottom:-2%;
+//        width: 5%;
+//     }
+
+//     #about>img{
+//        width: 30%;
+//        top: 30%;
+//        left: 4%;
+//     }
+//     #about>h1{
+//        right: 7.2%;
+//        top: 22%;
+//        width: 55%;
+//        font-weight: 400;
+//     }
+//     #about>h4{
+//        right: 50%;
+//        top: 16%;
+
+//     }
+//     .aboutme{
+//        width: 63%;
+//        // bottom:2rem;
+//        top: 32%;
+//        left: 35%;
+//     }
+
+//     .skillBox2{
+//        top: 210%;
+//        .img1{
+//            width: 70px;
+//            height:75px;
+//        }
+//        .img2{
+//         width: 70px;
+//         height:75px;
+//        }
+//        .img3{
+//         width: 70px;
+//         height:75px;
+//        }
+//        .img4{
+//         width: 70px;
+//         height:75px;
+//        }
+//        .img5{
+//         width: 70px;
+//         height:75px;
+//        }
+//        .img6{
+//         width: 70px;
+//         height:75px;
+//        }
+//        .img7{
+//         width: 70px;
+//            height:75px;
+//        }
+//        .img8{
+//         width: 90px;
+//            height:85px;
+//        }
+//        .img9{
+//         width: 70px;
+//         height:75px;
+//        }
+//        .img10{
+//         width: 70px;
+//         height:75px;
+//            margin: 25px;
+//        }
+//     }
+
+//     #contact > section > form > h2{
+//        font-size: 1.7rem;
+//     }
+//     #contact > section > form #messagebox{
+//        height: 10vh;
+//        width: 59%;
+//     }
+//     #contact > aside img{
+//         position: relative;
+//         right: 10%;
+//     }
+//     #contact > section > form > button{
+//         margin: 7px;
+//     }
+//     #contact > section > form > input, #contact > section > form > button{
+//         width: 60%;
+//     }
+// }
+
+//Done
+@media screen and (min-width: 1104px) and (max-width: 1200px) {
+  nav > div a {
+    font-size: 1.2rem;
+    left: 45vh;
+  }
+  nav > a {
+    font-size: 27px;
+    left: 10vh;
+  }
+
+  #home > section:first-of-type > div > h1 {
+    font-size: 2rem;
+  }
+  .handWave {
+    left: 80%;
+    height: 3.4rem;
+    top: -0.3rem;
+    width: 3.4rem;
+  }
+  #home > section:first-of-type > div .typewriterpara {
+    font-size: 1.3rem;
+  }
+
+  #home > section:last-of-type > img {
+    width: 34%;
+    top: 22vh;
+    right: 12vh;
+    height: 78vh;
+  }
+  #home > section:last-of-type::after {
+    width: 46%;
+    height: 93vh;
+    border-radius: 0px 90px 0 0 90px;
+  }
+  .home-btns {
+    font-size: 15px;
+    position: absolute;
+    left: 15%;
+    bottom: -2%;
+    width: 5%;
+  }
+
+  #about > img {
+    width: 30%;
+    top: 20%;
+    left: 4%;
+  }
+  #about > h1 {
+    right: 7.2%;
+    top: 27%;
+    width: 55%;
+    font-weight: 400;
+    font-size: 26px;
+  }
+  #about > h4 {
+    right: 51.4%;
+    top: 21%;
+  }
+  .aboutme {
+    width: 63%;
+    font-size: 20px;
+    top: 32%;
+    left: 35%;
+  }
+  #skillBox1>h4{
+   left: 66vh;
+  }
+
+  .skillBox2 {
+    top: 210%;
+    .img1 {
+      width: 70px;
+      height: 75px;
+    }
+    .img2 {
+      width: 84px;
+      height: 80px;
+    }
+    .img3 {
+      width: 70px;
+      height: 75px;
+    }
+    .img4 {
+      width: 70px;
+      height: 75px;
+    }
+    .img5 {
+      width: 70px;
+      height: 75px;
+    }
+    .img6 {
+      width: 70px;
+      height: 75px;
+    }
+    .img7 {
+      width: 70px;
+      height: 75px;
+    }
+    .img8 {
+      width: 90px;
+      height: 85px;
+    }
+    .img9 {
+      width: 70px;
+      height: 75px;
+    }
+    .img10 {
+      width: 70px;
+      height: 75px;
+      margin: 25px;
+    }
+  }
+
+  #contact > section > form > h2 {
+    font-size: 1.7rem;
+  }
+  #contact > section > form #messagebox {
+    height: 10vh;
+    width: 59%;
+  }
+  #contact > aside img {
+    position: relative;
+    right: 10%;
+  }
+  #contact > section > form > button {
+    margin: 7px;
+  }
+  #contact > section > form > input,
+  #contact > section > form > button {
+    width: 60%;
+  }
+}
+//Done
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  nav > div a {
+    font-size: 1.1rem;
+    left: 50vh;
+  }
+  nav > a {
+    font-size: 29px;
+    left: 46px;
+  }
+
+  #home > section:first-of-type > div > h1 {
+    font-size: 2.5rem;
+  }
+  .handWave {
+    left: 92%;
+    height: 3.4rem;
+    top: -0.1rem;
+    width: 3.4rem;
+  }
+  #home > section:first-of-type > div .typewriterpara {
+    font-size: 1.7rem;
+  }
+
+  #home > section:last-of-type > img {
+    width: 36%;
+    top: 15%;
+    right: 3%;
+    height: 78vh;
+  }
+
+  #home > section:last-of-type::after {
+    width: 46%;
+    height: 93vh;
+    border-radius: 0px 90px 0 0 90px;
+  }
+  .home-btns {
+    font-size: 16px;
+    position: absolute;
+    left: 13%;
+    bottom: -2%;
+    width: 5%;
+  }
+
+  #about > img {
+    width: 30%;
+    top: 13%;
+    left: 3%;
+  }
+  #about > h1 {
+    right: 8%;
+    top: 22%;
+    width: 55%;
+    font-weight: 400;
+    font-size: 35px;
+  }
+  #about > h4 {
+    right: 53.2%;
+    top: 16%;
+  }
+  .aboutme {
+    width: 63%;
+    font-size: 20px;
+    // bottom:2rem;
+    top: 32%;
+    left: 35%;
+  }
+
+  #skillBox1 > h4 {
+    left: 62vh;
+    display: inline-block;
+  }
+
+  .skillBox2 {
+    top: 206%;
+    .img1 {
+      width: 80px;
+      height: 90px;
+    }
+    .img2 {
+      width: 95px;
+      height: 95px;
+    }
+    .img3 {
+      width: 90px;
+      height: 95px;
+    }
+    .img4 {
+      width: 90px;
+      height: 95px;
+    }
+    .img5 {
+      width: 90px;
+      height: 95px;
+    }
+    .img6 {
+      width: 90px;
+      height: 95px;
+    }
+    .img7 {
+      width: 90px;
+      height: 95px;
+    }
+    .img8 {
+      width: 100px;
+      height: 95px;
+    }
+    .img9 {
+      width: 80px;
+      height: 85px;
+    }
+    .img10 {
+      width: 90px;
+      height: 95px;
+      margin-top: 10px;
+      margin-left: 40px;
+    }
+  }
+
+  #contact > section > form > h2 {
+    font-size: 1.9rem;
+  }
+  #contact > section > form #messagebox {
+    height: 20vh;
+    width: 59%;
+  }
+  #contact > aside img {
+    position: relative;
+    width: 100%;
+    right: 10%;
+  }
+  #contact > section > form > button {
+    margin: 7px;
+  }
+  #contact > section > form > input,
+  #contact > section > form > button {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1412px) {
+  nav > div a {
+    font-size: 1.3rem;
+  }
+  nav > a {
+    font-size: 27px;
+    left: 46px;
+  }
+  nav > a > button {
+    right: -68rem;
+    top: 56%;
+    position: relative;
+    padding: 12px 1;
+    font-size: 12px;
+  }
+  #home > section:first-of-type > div > h1 {
+    font-size: 2.5rem;
+  }
+  .handWave {
+    left: 82%;
+    height: 3.4rem;
+    top: -0.1rem;
+    width: 3.4rem;
+  }
+  #home > section:first-of-type > div .typewriterpara {
+    font-size: 1.7rem;
+  }
+
+  #home > section:last-of-type > img {
+    width: 36%;
+    top: 28%;
+    right: 2%;
+    height: 78vh;
+  }
+  #home > section:last-of-type::after {
+    width: 46%;
+    height: 93vh;
+    border-radius: 0px 90px 0 0 90px;
+  }
+  .home-btns {
+    font-size: 16px;
+    position: absolute;
+    left: 13%;
+    bottom: -2%;
+    width: 5%;
+  }
+
+  #about > img {
+    width: 30%;
+    top: 23%;
+    left: 3%;
+  }
+  #about > h1 {
+    right: 8%;
+    top: 22%;
+    width: 55%;
+    font-weight: 400;
+    font-size: 35px;
+  }
+  #about > h4 {
+    right: 54%;
+    top: 16%;
+  }
+  .aboutme {
+    width: 63%;
+    font-size: 20px;
+    // bottom:2rem;
+    top: 32%;
+    left: 35%;
+  }
+
+  .skillBox2 {
+    top: 210%;
+    .img1 {
+      width: 90px;
+      height: 95px;
+    }
+    .img2 {
+      width: 90px;
+      height: 95px;
+    }
+    .img3 {
+      width: 90px;
+      height: 95px;
+    }
+    .img4 {
+      width: 90px;
+      height: 95px;
+    }
+    .img5 {
+      width: 90px;
+      height: 95px;
+    }
+    .img6 {
+      width: 90px;
+      height: 95px;
+    }
+    .img7 {
+      width: 90px;
+      height: 95px;
+    }
+    .img8 {
+      width: 100px;
+      height: 95px;
+    }
+    .img9 {
+      width: 80px;
+      height: 85px;
+    }
+    .img10 {
+      width: 90px;
+      height: 95px;
+      margin: 18px;
+    }
+  }
+
+  #contact > section > form > h2 {
+    font-size: 1.9rem;
+    margin-top: 100px;
+  }
+  #contact > section > form #messagebox {
+    height: 20vh;
+    width: 59%;
+  }
+  #contact > aside img {
+    position: relative;
+    width: 100%;
+    right: 10%;
+  }
+  #contact > section > form > button {
+    margin: 7px;
+  }
+  #contact > section > form > input,
+  #contact > section > form > button {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 1411px) and (max-width: 1500px) {
+  nav > div a {
+    font-size: 1.2rem;
+  }
+  nav > a {
+    font-size: 30px;
+    left: 46px;
+  }
+  nav > a > button {
+    right: -68rem;
+    top: 56%;
+    position: relative;
+    padding: 12px 1;
+    font-size: 12px;
+  }
+  #home > section:first-of-type > div > h1 {
+    font-size: 2.5rem;
+  }
+  .handWave {
+    left: 82%;
+    height: 3.4rem;
+    top: -0.1rem;
+    width: 3.4rem;
+  }
+  #home > section:first-of-type > div .typewriterpara {
+    font-size: 1.7rem;
+  }
+
+  #home > section:last-of-type > img {
+    width: 36%;
+    top: 28%;
+    right: 2%;
+    height: 78vh;
+  }
+  #home > section:last-of-type::after {
+    width: 46%;
+    height: 93vh;
+    border-radius: 0px 90px 0 0 90px;
+  }
+  .home-btns {
+    font-size: 16px;
+    position: absolute;
+    left: 13%;
+    bottom: -2%;
+    width: 5%;
+  }
+
+  #about > img {
+    width: 30%;
+    top: 23%;
+    left: 3%;
+  }
+  #about > h1 {
+    right: 8%;
+    top: 22%;
+    width: 55%;
+    font-weight: 400;
+    font-size: 35px;
+  }
+  #about > h4 {
+    right: 54.3%;
+    top: 16%;
+  }
+  .aboutme {
+    width: 63%;
+    font-size: 20px;
+    // bottom:2rem;
+    top: 32%;
+    left: 35%;
+  }
+
+  .skillBox2 {
+    top: 210%;
+    .img1 {
+      width: 90px;
+      height: 95px;
+    }
+    .img2 {
+      width: 90px;
+      height: 95px;
+    }
+    .img3 {
+      width: 90px;
+      height: 95px;
+    }
+    .img4 {
+      width: 90px;
+      height: 95px;
+    }
+    .img5 {
+      width: 90px;
+      height: 95px;
+    }
+    .img6 {
+      width: 90px;
+      height: 95px;
+    }
+    .img7 {
+      width: 90px;
+      height: 95px;
+    }
+    .img8 {
+      width: 100px;
+      height: 95px;
+    }
+    .img9 {
+      width: 80px;
+      height: 85px;
+    }
+    .img10 {
+      width: 90px;
+      height: 95px;
+      margin: 28px;
+    }
+  }
+
+  #contact > section > form > h2 {
+    font-size: 1.9rem;
+    margin-top: 130px;
+  }
+  #contact > section > form #messagebox {
+    height: 20vh;
+    width: 59%;
+  }
+  #contact > aside img {
+    position: relative;
+    width: 100%;
+    right: 10%;
+  }
+  #contact > section > form > button {
+    margin: 7px;
+  }
+  #contact > section > form > input,
+  #contact > section > form > button {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 1501px) and (max-width: 1700px) {
+  nav > div a {
+    font-size: 1.2rem;
+  }
+  nav > a {
+    font-size: 30px;
+    left: 46px;
+  }
+  nav > a > button {
+    right: -68rem;
+    top: 56%;
+    position: relative;
+    padding: 12px 1;
+    font-size: 12px;
+  }
+  #home > section:first-of-type > div > h1 {
+    font-size: 2.5rem;
+  }
+  .handWave {
+    left: 75%;
+    height: 3.4rem;
+    top: -0.1rem;
+    width: 3.4rem;
+  }
+  #home > section:first-of-type > div .typewriterpara {
+    font-size: 1.7rem;
+  }
+
+  #home > section:last-of-type > img {
+    width: 36%;
+    top: 28%;
+    right: 2%;
+    height: 78vh;
+  }
+  #home > section:last-of-type::after {
+    width: 46%;
+    height: 93vh;
+    border-radius: 0px 90px 0 0 90px;
+  }
+  .home-btns {
+    font-size: 16px;
+    position: absolute;
+    left: 13%;
+    bottom: -2%;
+    width: 5%;
+  }
+
+  #about > img {
+    width: 30%;
+    top: 23%;
+    left: 3%;
+  }
+  #about > h1 {
+    right: 8%;
+    top: 22%;
+    width: 55%;
+    font-weight: 400;
+    font-size: 35px;
+  }
+  #about > h4 {
+    right: 54.7%;
+    top: 16%;
+  }
+  .aboutme {
+    width: 63%;
+    font-size: 20px;
+    // bottom:2rem;
+    top: 32%;
+    left: 35%;
+  }
+
+  .skillBox2 {
+    top: 210%;
+    .img1 {
+      width: 90px;
+      height: 95px;
+    }
+    .img2 {
+      width: 90px;
+      height: 95px;
+    }
+    .img3 {
+      width: 90px;
+      height: 95px;
+    }
+    .img4 {
+      width: 90px;
+      height: 95px;
+    }
+    .img5 {
+      width: 90px;
+      height: 95px;
+    }
+    .img6 {
+      width: 90px;
+      height: 95px;
+    }
+    .img7 {
+      width: 90px;
+      height: 95px;
+    }
+    .img8 {
+      width: 100px;
+      height: 95px;
+    }
+    .img9 {
+      width: 80px;
+      height: 85px;
+    }
+    .img10 {
+      width: 90px;
+      height: 95px;
+      margin: 28px;
+    }
+  }
+
+  #contact > section > form > h2 {
+    font-size: 1.9rem;
+    margin-top: 130px;
+  }
+  #contact > section > form #messagebox {
+    height: 20vh;
+    width: 59%;
+  }
+  #contact > aside img {
+    position: relative;
+    width: 100%;
+    right: 10%;
+  }
+  #contact > section > form > button {
+    margin: 7px;
+  }
+  #contact > section > form > input,
+  #contact > section > form > button {
+    width: 60%;
+  }
+}

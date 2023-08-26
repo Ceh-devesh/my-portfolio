@@ -1,72 +1,76 @@
-import React from 'react'
-import {motion} from 'framer-motion'
-import Typewriter  from 'typewriter-effect'
-// import me from '../assets/pic.png'
-import { BsChevronDown} from 'react-icons/bs'
-import handwave from '../assets/handwave.png'
-// import homeImg from '../assets/Screenshot 2023-07-30 235744 .png'
-import homeImg from '../assets/ss.png'
-
+import React from "react";
+import { motion } from "framer-motion";
+import Typewriter from "typewriter-effect";
+import { BsChevronDown } from "react-icons/bs";
+import handwave from "../assets/handwave.png";
+import homeImg from "../assets/ss.png";
 function Home() {
-
-const animations= {
-    h1:{
-        initial:{
-            x:'-100%',
-            opacity:0
-        },
-        whileInView:{
-            x:0,
-            opacity:1
-        }
+  const animations = {
+    h1: {
+      initial: {
+        x: "-100%",
+        opacity: 0,
+      },
+      whileInView: {
+        x: 0,
+        opacity: 1,
+      },
     },
-    button:{
-        initial:{
-            y:'-100%',
-            opacity:0
-        },
-        whileInView:{
-            y:0,
-            opacity:1
-        }
-    }
-    
-}
+    button: {
+      initial: {
+        y: "-100%",
+        opacity: 0,
+      },
+      whileInView: {
+        y: 0,
+        opacity: 1,
+      },
+    },
+  };
 
   return (
-    <div id='home' >
-      <section  className='home1'>
+    <div id="home">
+      <section className="home1">
         <div>
-            <motion.h1 {...animations.h1} >
-                Front-End Developer <img className='handWave' src={handwave} alt="" />
-                
-            </motion.h1>
+          <motion.h1 {...animations.h1}>
+            Front-End Developer{" "}
+            <img className="handWave" src={handwave} alt="" />
+          </motion.h1>
 
-            <Typewriter
+          <Typewriter
             options={{
-                strings:[`Hi, I'm Devesh`, '  A passionate Front-End-React Developer'],
-                autoStart:true,
-                loop:true,
-                delay:2,
-                cursor:'',
-                wrapperClassName:'typewriterpara'
-        
+              strings: [
+                `Hi, I'm Devesh`,
+                "  A passionate Front-End-React Developer",
+              ],
+              autoStart: true,
+              loop: true,
+              delay: 2,
+              cursor: "",
+              wrapperClassName: "typewriterpara",
             }}
-            />
-            <div className='home-btns' >
-                <a href="mailto:Ceh.devesh95@gmail.com" >Hire Me</a>
-                <a href="https://github.com/Ceh-devesh" target="_blank" rel="noreferrer" >Github</a>
-                
-            </div>
-           
+          />
+          <div>
+            <a href="https://github.com/Ceh-devesh" rel="noreferrer" target="_blank">
+              <button className="ui-btn">
+                <span>GITHUB</span>
+              </button>
+            </a>
+            <a href="mailto:Ceh.devesh95@gmail.com">
+              <button className="ui-btn">
+                <span>E-MAIL</span>
+              </button>
+            </a>
+          </div>
         </div>
       </section>
-      <section className='home-img'>
-        <img src={homeImg} alt="devesh" />
+      <section className="home-img" alt='homepng' >
+        <img src={homeImg} alt="homeimg" />
+
       </section>
-        <BsChevronDown/>
+      <BsChevronDown />
     </div>
-  )
+  );
 }
 
 export default Home;

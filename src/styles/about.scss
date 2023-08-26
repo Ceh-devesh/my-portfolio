@@ -11,6 +11,17 @@
         right: 41rem;
         color: #147efb;
     }
+    #videoHome{
+        object-fit: contain;
+        width: 40vw;
+        height: 60vh;
+        position: relative;
+        top: 23vh;
+        left: 20vh;
+        overflow-y: hidden;
+        
+
+    }
     >h1{
         font-weight: 500;
         color: #2d2e32;;

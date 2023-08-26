@@ -16,7 +16,7 @@ function Contact() {
       await addDoc(collection(db,"data"),{
         Name:input
       });
-      toast.success('Message Has been sent')
+      toast.success('Thanks For Submitting Your Query!')
 
     } catch (error) {
       toast.error('Error')

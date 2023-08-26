@@ -15,9 +15,9 @@ function Skill() {
   return (
     <div id='skill' >
       <div id='skillBox1' >
-      <h4>Tech Stack</h4>
+      <h4 className='skill-heading' >Tech Stack</h4>
       {/* <h2>My Toolbox & Things I can do</h2> */}
-      <p>THE SKILLS, TOOLS TECHNOLOGIES I USE TO BRING YOUR PRODUCTS TO LIFE</p>
+      {/* <p>THE SKILLS, TOOLS TECHNOLOGIES I USE TO BRING YOUR PRODUCTS TO LIFE</p> */}
       </div>
       <div className='skillBox2' >
         <img className='img1' src={html} alt="" />
